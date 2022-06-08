@@ -1,0 +1,36 @@
+@import 'common'
+
+html
+  font-size: #{1em * $v-ratio}
+  background-color: $light-tan
+
+*
+  margin: 0
+  padding: 0
+  line-height: #{100% * $v-ratio}
+
+header
+  font-family: $header-font-family
+  text-align: center
+  padding: 1rem 0 2rem
+  border-top: 7px solid $dark-brown
+
+  h1
+    font-size: 3rem
+    font-variant: small-caps
+    color: $dark-grey
+    line-height: 100%
+
+  h2
+    font-size: 1rem
+
+main
+  margin: 0 #{(1 - $h-ratio) / 2 * 100vw}
+  font-family: $body-font-family
+
+  h1
+    font-size: 2rem
+    text-align: center
+
+  p
+    margin: 1.618rem 0

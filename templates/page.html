@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}
+  {{ page.title }} - Zion
+{% endblock title %}
+
+{% block body %}
+<header>
+  <h1 id="title">Zion</h1>
+  <h2 id="subtitle">A study on the creation of society</h2>
+</header>
+<main>
+  {{ page.content | safe }}
+</main>
+<footer>
+
+</footer>
+{% endblock body %}
+
+{% block styles %}
+<link rel= "stylesheet" href="/page.css" />
+{% endblock styles %}
