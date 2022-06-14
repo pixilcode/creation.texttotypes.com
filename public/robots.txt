@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://creation.texttotypes.com/sitemap.xml
