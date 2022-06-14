@@ -1,0 +1,55 @@
+@import 'common'
+
+html
+  font-size: #{1em * $v-ratio}
+  background-color: $light-tan
+  background-image: url('/texture.png')
+
+*
+  margin: 0
+  padding: 0
+  line-height: #{100% * $v-ratio}
+
+body
+  text-align: center
+  margin: 0
+  height: 100vh
+  width: 100%
+
+  font-family: $header-font-family
+  
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+h1
+  font-size: 3rem
+  font-variant: small-caps
+  line-height: 100%
+  padding-top: #{1rem / $v-ratio}
+
+#subtitle
+  font-size: 1.5rem
+
+#author
+  font-size: 1rem
+  padding-bottom: #{1rem / $v-ratio}
+
+h1, h2
+  color: $dark-grey
+  background-color: $dark-brown
+
+a
+  color: $dark-grey
+  background-color: $light-tan
+  text-decoration: none
+
+  line-height: 100%
+  margin: #{2rem / $v-ratio} auto
+  padding: #{1rem / $v-ratio}
+
+  border-radius: 1rem
+  box-shadow: 0px 0px #{1.5rem / $v-ratio} #{0.75rem / $v-ratio} $tan
+
+a:hover
+  background-color: $dark-tan

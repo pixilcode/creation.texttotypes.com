@@ -1,5 +1,13 @@
 +++
 title = "Creation"
+
+[extra.prev]
+title = "Introduction"
+url = "/intro"
+
+[extra.next]
+title = "Male and Female"
+url = "/male-and-female"
 +++
 
 # Creation

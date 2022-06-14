@@ -1,5 +1,9 @@
 +++
 title = "Introduction"
+
+[extra.next]
+title = "Creation"
+url = "/creation"
 +++
 
 # Introduction
